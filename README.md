@@ -28,6 +28,7 @@ This Python script analyzes an input video and identifies keyframes based on str
 
 ```bash
 pip install opencv-python-headless scikit-image numpy tqdm
+```
 
 Usage
 Edit the INPUT_VIDEO and OUTPUT_PATH constants in the script to specify the input video file and the output directory for saving keyframes.
@@ -36,7 +37,9 @@ Edit the INPUT_VIDEO and OUTPUT_PATH constants in the script to specify the inpu
 
 Run the script:
 
-```python video_keyframe_detection.py```
+```bash
+python video_keyframe_detection.py
+```
 
 The identified keyframes will be saved in the "synth_frames" folder inside the specified output directory.
 
