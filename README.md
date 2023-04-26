@@ -30,7 +30,7 @@ This Python script analyzes an input video and identifies keyframes based on str
 pip install opencv-python-headless scikit-image numpy tqdm
 ```
 
-##Usage
+## Usage
 
 Edit the INPUT_VIDEO and OUTPUT_PATH constants in the script to specify the input video file and the output directory for saving keyframes.
 
@@ -44,7 +44,7 @@ python video_keyframe_detection.py
 
 The identified keyframes will be saved in the "synth_frames" folder inside the specified output directory.
 
-##Notes
+## Notes
 
 The script is designed to work with various video lengths and adjusts the leading zeros for saved keyframes dynamically based on the total number of frames in the input video.
 This script provides a basic outline for the desired functionality. You will need to set up and integrate stable diffusion and ebsynth tools for further processing of the keyframes
